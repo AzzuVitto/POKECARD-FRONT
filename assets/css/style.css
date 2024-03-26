@@ -1,0 +1,103 @@
+body {
+    font-family: Slackey;
+    background-image: url("../images/_ghost-pokemon_3840x2160.jpg");
+    margin: 0;
+    background-size: cover;
+    /* overflow: hidden; */
+    color: #ef8710;
+}
+
+h1 {
+    font-size: 3em;
+
+}
+
+h1,
+h2, 
+h3 {
+    font-family: Slackey;
+    text-align: center;
+
+    text-shadow: 18px 11px 18px #040404fc;
+}
+
+#dresseurContainer,
+#pokeContainer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: center;
+}
+ 
+.dresseurs {
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 18px 11px 18px #040404fc;
+}
+.pokemons{
+    border-radius: 5px;
+    border: solid 2px black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 18px 11px 18px #040404fc;
+
+
+}
+.addForm{
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 18px 11px 18px #040404fc;
+
+}
+form {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 18px 11px 18px #040404fc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    /* font-family: Slackey; */
+}
+#add,
+#modif,
+#suppr,
+#plus {
+font-family: Chango;
+background: none;
+border-radius: 5px;
+
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+#add{
+    color: rgb(255, 0, 221);
+}
+
+
+
